@@ -33,14 +33,15 @@ The game background is a HTML div grid that uses a group of images to draw the g
 - Settings Screen : Crumpled paper with a list of options that you can choose. The back button works the same as the rulebook screen's back button
 - Play State : Has the scorecard as a table on the left (on a crumpled piece of paper), a green background with the dice, and a wooden top block for the selected dice. There is a button that rolls the dice in the top left.
 
-### Animations
+### Animations & Functionality
 - Upon clicking a die, it glides to the top bar
 - The dice bounce to a random position on the screen when rolled
+These animations are subtle but effective in the overall feel of the game
+
 - There are some buttons on the bottom of the score card that allow the user to access the options and the rules
 - The main menu screen has a button for the rules and a button to start
 - Menus such as the options menu and the rules menu have a back button that returns to the previous game state. Said game state is stored when the menus open. On press it takes the player back to that state
 - Once the game ends, the score is displayed. You can press 'play again' or 'quit' where 'quit' returns you to the main menu
-These animations are subtle but effective in the overall feel of the game
 
 ### Layout
 ![Layout Mock-up](yahtzee-layout.png)
